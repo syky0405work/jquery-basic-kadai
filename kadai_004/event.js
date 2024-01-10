@@ -1,5 +1,5 @@
 // HTMLドキュメントの読み取り後にログを出す
-$(function () {
+$(window).on("load", function () {
   console.log("loadイベントが発生しました");
 });
 
